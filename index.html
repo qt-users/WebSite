@@ -1,0 +1,58 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>無題ドキュメント</title>
+    <link rel="stylesheet" href="./css/default.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="./css/nivo-slider.css" type="text/css" media="screen" />
+        <link rel="stylesheet" href="./css/style.css" type="text/css" media="screen" />
+<link href="./css/global.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<header>
+<div id="logo">
+<img src="image/Qt_master_logo_CMYK_noback.gif" width="63" height="77" alt="logo" />
+</div>
+<div id="linklist">
+  <img src="image/JQUG.fw.png" alt="Japan Qt User's Group" width="400" height="52" />
+</div>
+<nav>
+<ul>
+<li><a href="#">HOME</a></li>
+<li><a href="#">NEWS</a></li>
+<li><a href="#">BLOG</a></li>
+<li><a href="#">Qtの特徴</a></li>
+<li><a href="#">JQUGとは？</a></li>
+<li><a href="#">FORUMS</a></li>
+<li><a href="#">WIKI</a></li>
+<li><a href="#">翻訳</a></li>
+<li><a href="#">お問い合わせ</a></li>
+</ul>
+</nav>
+</header>
+
+
+
+        <div class="slider-wrapper theme-default">
+            <div id="slider" class="nivoSlider">
+                <img src="images/devdays2012-carousel.png" data-thumb="images/devdays2012-carousel.png" alt="" />
+                <a href="http://dev7studios.com"><img src="images/Qt_C_Charts_1.1.0.jpg" data-thumb="images/Qt_C_Charts_1.1.0.jpg" alt="" title="This is an example of a caption" /></a>
+                <img src="images/qt_MedicalDemo_carousel_01_banner.png" data-thumb="images/qt_MedicalDemo_carousel_01_banner.png" alt="" data-transition="slideInLeft" />
+                <img src="images/Build_crossplatform_homepage_new.jpg" data-thumb="images/Build_crossplatform_homepage_new.jpg" alt="" title="#htmlcaption" />
+            </div>
+            <div id="htmlcaption" class="nivo-html-caption">
+                <strong>This</strong> is an example of a <em>HTML</em> caption with <a href="#">a link</a>. 
+            </div>
+        </div>
+
+    <script type="text/javascript" src="scripts/jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="scripts/jquery.nivo.slider.js"></script>
+    <script type="text/javascript">
+    $(window).load(function() {
+        $('#slider').nivoSlider();
+    });
+    </script>
+    
+    
+</body>
+</html>
