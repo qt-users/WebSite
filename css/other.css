@@ -6,6 +6,7 @@ body{
 	background-color: #EEEEEE;
 	margin: 0px;
 	padding: 0px;
+	font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
 }
 header{
 	width: 990px;
@@ -52,7 +53,7 @@ nav ul li a:hover{
 	color: #6a9f2f !important;
 }
 #contents{
-	width: 690px;
+	width: 990px;
 	margin-top: 20px;
 	float: left;
 }
@@ -70,7 +71,7 @@ section h1{
 	border-bottom-width: 2px;
 	border-bottom-style: solid;
 	border-bottom-color: #999999;
-	width: 500px;
+	width: 700px;
 
 }
 section p{
