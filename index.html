@@ -6,11 +6,21 @@
 <meta name='keywords' content='solved, qml, qt quick, howto, qt creator, symbian, learning, windows, tutorial, wiki, mobility api, linux, problem, build, binding, example, qt webkit, please rename, qmake, python, error, forum, mobile, embedded, pyside, getting started, mac os, plugin, ' />
 <meta name='description' content='日本Qtユーザ会 (JQUG: Japan Qt Users Group) は、主に Qt のローカライズや、日本における Qt のプロモーションなどを行っています。 ' />
 
-    <link rel="stylesheet" href="./css/default.css" type="text/css" media="screen" />
-    <link rel="stylesheet" href="./css/nivo-slider.css" type="text/css" media="screen" />
-        <link rel="stylesheet" href="./css/style.css" type="text/css" media="screen" />
+
 <link rel="icon" href="/favicon.ico" type="image/x-icon" />
 <link href="./css/global.css" rel="stylesheet" type="text/css">
+<link href="scripts/coin-slider-styles.css" rel="stylesheet" type="text/css">
+
+    <script type="text/javascript" src="scripts/jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="scripts/coin-slider.min.js"></script>
+    <script type="text/javascript">
+	$(document).ready(function() {
+		$('#coin-slider').coinslider({ width: 990, height : 354, titleSpeed: 200, delay: 5000 });
+
+    });
+
+</script>
+
 </head>
 <body>
 <div class="wrapper">
@@ -38,28 +48,30 @@
 
 
 
-        <div class="slider-wrapper theme-default">
-            <div id="slider" class="nivoSlider">
-<a href="http://www.workshop.qt-uers.jp" ><img src="images/latest_workshop.fw.png" data-thumb="images/latest_workshop.fw.png"
-title="関東Qt勉強会 12月15日開催" alt=""  /></a>
+<div id='coin-slider'>
 
-<img src="images/lotofdemos.fw.png" data-thumb="images/lotofdemos.fw.png" alt="" title="Qtは豊富なデモとドキュメンテーションを備えており、学習が効率良く進みます"　　/>
+<a href="http://www.workshop.qt-uers.jp" ><img src="images/latest_workshop.fw.png"
+alt="関東Qt勉強会 12月15日開催"  />
+<span>関東Qt勉強会 12月15日開催</span>
+</a>
 
-<img src="images/UI.fw.png" data-thumb="images/UI.fw.png" alt="" title="Qt CreatorのUIのエディタでパワフルなUIを効率良く作成できます。" />
+<a href="images/lotofdemos.fw.png" >
+<img src="images/lotofdemos.fw.png" alt="Qtは豊富なデモとドキュメンテーションを備えており、学習が効率良く進みます" />
+<span>Qtは豊富なデモとドキュメンテーションを備えており、学習が効率良く進みます</span>
+</a>
 
-<img src="images/WMLU.fw.png" data-thumb="images/WMLU.fw.png" alt="" title="QtはWindows,Mac OS X,Linux,UNIXで動作し、スマートフォンにも近いうちに対応するでしょう。" />
-                
-                
-            </div>
+<a href="images/UI.fw.png">
+<img src="images/UI.fw.png" alt="Qt CreatorのUIのエディタでパワフルなUIを効率良く作成できます" />
+<span>Qt CreatorのUIのエディタでパワフルなUIを効率良く作成できます</span>
+</a>
+
+<a href="images/UI.fw.png">
+<img src="images/WMLU.fw.png" alt="QtはWindows,Mac OS X,Linux,UNIXで動作し、スマートフォンにも近いうちに対応するでしょう" />
+<span>QtはWindows,Mac OS X,Linux,UNIXで動作し、スマートフォンにも近いうちに対応するでしょう</span>
+</a>          
         </div>
 
-    <script type="text/javascript" src="scripts/jquery-1.7.1.min.js"></script>
-    <script type="text/javascript" src="scripts/jquery.nivo.slider.js"></script>
-    <script type="text/javascript">
-    $(window).load(function() {
-        $('#slider').nivoSlider();
-    });
-    </script>
+
     <div id="space" >
 	<div id="contents">
 
