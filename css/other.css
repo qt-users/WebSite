@@ -64,7 +64,7 @@ nav ul li a{
 }
 nav ul li a:hover{
 	text-decoration:none;
-	color: #6a9f2f !important;
+	color: #44a51c !important;
 }
 #contents{
 	width: 990px;
@@ -81,7 +81,7 @@ section{
 section h1{
 	font-size: 25px;
 	font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
-	color: #009933;
+	color: #44a51c;
 	border-top-width: 2px;
 	border-bottom-width: 2px;
 	border-top-style: dotted;
@@ -92,7 +92,7 @@ section h1{
 }
 section h2{
 	font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
-	color: #739825;
+	color: #44a51c;
 	font-size: 18px;
 	border-bottom-width: 2px;
 	border-bottom-style: solid;
@@ -102,7 +102,7 @@ section h2{
 }
 section h3{
 	font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
-	color: #739825;
+	color: #44a51c;
 	font-size: 15px;
 	width: 700px;
 }
