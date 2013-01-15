@@ -1,0 +1,249 @@
+﻿﻿@charset "utf-8";
+/* CSS Document */
+
+/*
+ * Theme Name: qt-users
+ * Theme URI: http://qt-users.jp/
+ * Description: The theme for qt-users.jp
+ * Version: 1.0
+ * Author: luyikei
+ * Author URL: http://twitter.com/luyikei
+ * */
+
+html, body {
+	height: 100%;
+}
+body > .wrapper {
+    height: auto;
+}
+body{
+	background-image: url(../image2/header.png);
+	background-repeat: repeat-x;
+	background-color: #EEEEEE;
+	font-size: 13px
+	line-height: 15px;
+	margin: 0px;
+	padding: 0px;
+}
+header{
+	width: 990px;
+	height: 77px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 30px;
+
+}
+div.wrapper {
+	position: relative;
+	min-height: 100%;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-bottom: 80px;
+}
+#logo{
+	float: left;
+
+}
+#linklist{
+	height: 52px;
+}
+nav{
+	float: right;
+	width: 900px;
+}
+nav ul{
+	margin: 0px;
+	padding: 0px;
+	height: 20px;
+}
+nav ul li{
+	float: left;
+	list-style-type: none;
+}
+nav ul li a{
+	font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+	line-height: 20px;
+	text-decoration: none;
+	text-align: center;
+	display: block;
+	font-size: 14px;
+	color: #404044;
+	text-transform: capitalize;
+	font-weight: 600;
+	margin-right: 30px;
+}
+nav ul li a:hover{
+	text-decoration:none;
+	color: #44a51c !important;
+}
+#contents{
+	width: 720px;
+	margin-top: 20px;
+	float: left;
+}
+
+section{
+	border: 2px solid #999;
+	background-color: #FFF;
+	padding: 20px;
+}
+
+section h1{
+	font-size: 25px;
+	font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+	color: #009933;
+	border-top-width: 2px;
+	border-bottom-width: 2px;
+	border-top-style: dotted;
+	border-bottom-style: dotted;
+	border-top-color: #999;
+	border-bottom-color: #999;
+	padding-left: 20px;
+}
+section h2{
+	font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+	color: #44a51c;
+	font-size: 20px;
+	line-height: 25px;
+#	border-bottom-width: 2px;
+#	border-bottom-style: solid;
+#	border-bottom-color: #999999;
+
+}
+section h2 a{
+	font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+	color: #44a51c;
+	font-size: 20px;
+	line-height: 25px;
+	text-decoration: none;
+#	border-bottom-width: 2px;
+#	border-bottom-style: solid;
+#	border-bottom-color: #999999;
+}
+section h2 a:hover {
+	font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+	color: #44a51c;
+	font-size: 20px;
+	line-height: 25px;
+	text-decoration: none;
+#	border-bottom-width: 2px;
+#	border-bottom-style: solid;
+#	border-bottom-color: #999999;
+}
+section h3{
+	font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+	color: #44a51c;
+	font-size: 15px;
+	width: 500px;
+}
+section h4{
+	font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+	color: #44a51c;
+	font-size: 14px;
+	width: 500px;
+}
+section p{
+	font-size: 13px;
+	line-height: 20px;
+}
+article{
+	margin-top: 30px;
+	padding-bottom: 30px;
+	clear: both;
+	border-bottom-width: 2px;
+	border-bottom-style: dashed;
+	border-bottom-color: #999999;
+
+}
+article tbody{
+	font-size: 13px;
+}
+article ul li{
+	font-size: 13px;
+}
+.date_time{
+	font-size: 13px;
+	color: #808080;
+}
+.date_time ul{
+	padding-left: 0px;
+}
+.date_time ul li{
+	float: left;
+	margin-right: 10px;
+	list-style-type: none;
+}
+.left{
+	float:left;
+}
+.right{
+	float:right;
+}
+.clear{
+	clear:both
+}
+.aList{
+	border-bottom-width: 2px;
+	border-bottom-style: dashed;
+	border-bottom-color: #CCC;
+	width: 480px;
+	padding-bottom: 5px;
+}
+
+aside{
+	float: right;
+	width: 200px;
+	margin-top: 20px;
+	border: 2px solid #999;
+	background-color: #FFF;
+	font-size: 12px;
+	font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+	color: #009933;
+	padding: 20px;
+
+}
+aside h1{
+	font-size: 25px;
+	font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+	color: #009933;
+	border-top-width: 2px;
+	border-bottom-width: 2px;
+	border-top-style: dotted;
+	border-bottom-style: dotted;
+	border-top-color: #999;
+	border-bottom-color: #999;
+	padding-left: 20px;
+}
+aside h2{
+	font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+	color: #44a51c;
+	font-size: 18px;
+	border-bottom-width: 2px;
+	border-bottom-style: solid;
+	border-bottom-color: #999999;
+	width: 200px;
+
+}
+aside h3{
+	font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+	color: #44a51c;
+	font-size: 15px;
+	width: 200px;
+}
+#space{
+	width: 990px;
+	margin-right: auto;
+	margin-left: auto;
+}
+footer{
+	background-color: #000;
+	padding: 0px;
+	position:absolute;
+    bottom:0px;
+    width:100%;
+	color: #FFF;
+	text-align: center;
+	font-size: 13px;
+	height:40px;
+}
