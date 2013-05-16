@@ -7,6 +7,158 @@
 <meta name='description' content="日本 Qt ユーザ会 (JQTUG: Japan Qt Users' Group) は、主に Qt のローカライズや、日本における Qt のプロモーションなどを行っています。" />
 <link rel="icon" href="/favicon.ico" type="image/x-icon" />
 <link href="./css/other.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+  .qtcdk {
+    font-size: 12px;
+  }
+  .qtcdk a {
+    color: #44a51c;
+  }
+  .qtcdk div.wrap {
+    padding-left: 120px;
+  }
+  .qtcdk div.left {
+    display: inline-block;
+    width: 100px;
+    margin-left: -120px;
+    vertical-align: top;
+    zoom: 1;
+  }
+  .qtcdk div.right {
+    display: inline-block;
+    width: 98%;
+    padding-left: 1%;
+    vertical-align: top;
+    zoom: 1;
+  }
+  .qtcdk .downstyle {
+  }
+  .qtcdk .downstyle h3 {
+    font-size: 165%;
+  }
+  .qtcdk .downstyle .jumplist {
+    list-style: none;
+    margin: 0 0 30px 0;
+  }
+  .qtcdk .downstyle .jumplist li {
+    float: left;
+    padding: 0 15px 0 0;
+    background: url(/uploads/image_upload/Arrow-green.png) no-repeat 100% 50%;
+    margin: 0 0 0 15px;
+  }
+  .qtcdk .downstyle .jumplist li.label {
+    background-image: none;
+    padding: 0;
+    margin: 0;
+  }
+  .qtcdk .downstyle .inlineelement {
+    /*      display: inline-block;*/
+    vertical-align: top; /*      *display: inline;*/;
+    zoom: 1;
+  }
+  .qtcdk .downstyle .inlineelement.image {
+    width: 100px;
+    /*      margin-right: 10px;*/
+  }
+  .qtcdk .downstyle .inlineelement.text {
+  }
+  .qtcdk .downstyle ul.releases {
+    list-style-image: url(/uploads/image_upload/Bullet-gray.png);
+    list-style-type: square;
+    padding-right: 35px;
+  }
+  .qtcdk .downstyle ul.releases li {
+    float: left;
+    width: 50%;
+  }
+  .qtcdk .downstyle .sdkdownloads {
+    margin: 20px 0;
+  }
+  .qtcdk .downstyle .sdkdownloads p, .qtcdk .downstyle .sdkdownloads ul {
+    padding: 0;
+    margin: 0;
+  }
+  .qtcdk .downstyle .sdkdownloads p {
+    font-weight: bold;
+  }
+  .qtcdk .downstyle .sdkdownloads ul {
+    margin-right: 40px;
+  }
+  .qtcdk .downstyle .sdkdownloads ul li {
+    background: url(/uploads/image_upload/Arrow-orange.png) no-repeat 4% 50%;
+    padding: 5px 0 5px 50px;
+    list-style: none outside none;
+    width: 200px;
+    float: left;
+    font-weight: bold;
+  }
+  .qtcdk .downstyle .license, .qtcdk .downstyle .notes {
+    border: 1px solid #C3C3C3;
+    -moz-border-radius: 5px 5px 5px 5px;
+    -webkit-border-radius: 5px 5px 5px 5px;
+    border-radius: 5px 5px 5px 5px;
+  }
+  .qtcdk .downstyle .license {
+    background-color: #e9f1f4;
+    margin-top: 27px;
+  }
+  .qtcdk .downstyle .notes {
+    background-color: #f3f3f3;
+    margin-top: 10px;
+  }
+  .qtcdk .downstyle .license p, .qtcdk .downstyle .notes p {
+    margin: 5px;
+    padding: 5px;
+    font-size: 90%;
+  }
+  .qtcdk .downstyle .license img, .qtcdk .downstyle .notes img {
+    float: right;
+    margin: -1px;
+  }
+  .qtcdk .downstyle .license ul {
+    margin: 15px 0 15px 10px;
+    list-style: none;
+  }
+  .qtcdk .downstyle .license li {
+    background: url(/uploads/image_upload/Arrow-orange-right.png) no-repeat 0 50%;
+    padding: 5px 0 5px 28px;
+  }
+  .qtcdk .downstyle ul.downloads {
+    list-style: none;
+    margin: 15px 0 15px 10px;
+  }
+  .qtcdk .downstyle ul.downloads li {
+    background: url(./image/Arrow-gray.png) no-repeat 0 50%;
+    padding: 5px 28px;
+    margin-bottom: 15px;
+    font-weight: bold;
+    font-size: 14px;
+  }
+  .qtcdk .downstyle p.horizontalline {
+    clear: both;
+    margin: 30px 0;
+  }
+  .qtcdk .downstyle .roundedBlock {
+    margin: 20px 0;
+  }
+  .qtcdk .downstyle .clearfix:before, .qtcdk .downstyle .clearfix:after, .qtcdk .downstyle ul:before, .qtcdk .downstyle ul:after {
+    content: "";
+    display: table;
+  }
+  .qtcdk .downstyle .clearfix:after, .qtcdk .downstyle ul:after {
+    clear: both;
+  }
+  .qtcdk .downstyle .clearfix, .qtcdk .downstyle ul {
+    zoom: 1;
+  }
+  .auto-style1 {
+    margin-top: 7px;
+    margin-bottom: 7px;
+  }
+  .auto-style2 {
+    font-size: xx-small;
+  }
+</style>
 <!--[if lt IE 9]>
 <script type="text/javascript" src="scripts/html5.js"></script>
 <![endif]-->
@@ -46,158 +198,6 @@
 
             <div id="static-content" class="qtcdk"> 
               <h1>Qt :クロスプラットフォームアプリケーションフレームワークをダウンロード</h1> 
-              <style type="text/css">
-                .qtcdk {
-                  font-size: 12px;
-                }
-                .qtcdk a {
-                  color: #44a51c;
-                }
-                .qtcdk div.wrap {
-                  padding-left: 120px;
-                }
-                .qtcdk div.left {
-                  display: inline-block;
-                  width: 100px;
-                  margin-left: -120px;
-                  vertical-align: top;
-                  zoom: 1;
-                }
-                .qtcdk div.right {
-                  display: inline-block;
-                  width: 98%;
-                  padding-left: 1%;
-                  vertical-align: top;
-                  zoom: 1;
-                }
-                .qtcdk .downstyle {
-                }
-                .qtcdk .downstyle h3 {
-                  font-size: 165%;
-                }
-                .qtcdk .downstyle .jumplist {
-                  list-style: none;
-                  margin: 0 0 30px 0;
-                }
-                .qtcdk .downstyle .jumplist li {
-                  float: left;
-                  padding: 0 15px 0 0;
-                  background: url(/uploads/image_upload/Arrow-green.png) no-repeat 100% 50%;
-                  margin: 0 0 0 15px;
-                }
-                .qtcdk .downstyle .jumplist li.label {
-                  background-image: none;
-                  padding: 0;
-                  margin: 0;
-                }
-                .qtcdk .downstyle .inlineelement {
-                  /*      display: inline-block;*/
-                  vertical-align: top; /*      *display: inline;*/;
-                  zoom: 1;
-                }
-                .qtcdk .downstyle .inlineelement.image {
-                  width: 100px;
-                  /*      margin-right: 10px;*/
-                }
-                .qtcdk .downstyle .inlineelement.text {
-                }
-                .qtcdk .downstyle ul.releases {
-                  list-style-image: url(/uploads/image_upload/Bullet-gray.png);
-                  list-style-type: square;
-                  padding-right: 35px;
-                }
-                .qtcdk .downstyle ul.releases li {
-                  float: left;
-                  width: 50%;
-                }
-                .qtcdk .downstyle .sdkdownloads {
-                  margin: 20px 0;
-                }
-                .qtcdk .downstyle .sdkdownloads p, .qtcdk .downstyle .sdkdownloads ul {
-                  padding: 0;
-                  margin: 0;
-                }
-                .qtcdk .downstyle .sdkdownloads p {
-                  font-weight: bold;
-                }
-                .qtcdk .downstyle .sdkdownloads ul {
-                  margin-right: 40px;
-                }
-                .qtcdk .downstyle .sdkdownloads ul li {
-                  background: url(/uploads/image_upload/Arrow-orange.png) no-repeat 4% 50%;
-                  padding: 5px 0 5px 50px;
-                  list-style: none outside none;
-                  width: 200px;
-                  float: left;
-                  font-weight: bold;
-                }
-                .qtcdk .downstyle .license, .qtcdk .downstyle .notes {
-                  border: 1px solid #C3C3C3;
-                  -moz-border-radius: 5px 5px 5px 5px;
-                  -webkit-border-radius: 5px 5px 5px 5px;
-                  border-radius: 5px 5px 5px 5px;
-                }
-                .qtcdk .downstyle .license {
-                  background-color: #e9f1f4;
-                  margin-top: 27px;
-                }
-                .qtcdk .downstyle .notes {
-                  background-color: #f3f3f3;
-                  margin-top: 10px;
-                }
-                .qtcdk .downstyle .license p, .qtcdk .downstyle .notes p {
-                  margin: 5px;
-                  padding: 5px;
-                  font-size: 90%;
-                }
-                .qtcdk .downstyle .license img, .qtcdk .downstyle .notes img {
-                  float: right;
-                  margin: -1px;
-                }
-                .qtcdk .downstyle .license ul {
-                  margin: 15px 0 15px 10px;
-                  list-style: none;
-                }
-                .qtcdk .downstyle .license li {
-                  background: url(/uploads/image_upload/Arrow-orange-right.png) no-repeat 0 50%;
-                  padding: 5px 0 5px 28px;
-                }
-                .qtcdk .downstyle ul.downloads {
-                  list-style: none;
-                  margin: 15px 0 15px 10px;
-                }
-                .qtcdk .downstyle ul.downloads li {
-                  background: url(./image/Arrow-gray.png) no-repeat 0 50%;
-                  padding: 5px 28px;
-                  margin-bottom: 15px;
-                  font-weight: bold;
-                  font-size: 14px;
-                }
-                .qtcdk .downstyle p.horizontalline {
-                  clear: both;
-                  margin: 30px 0;
-                }
-                .qtcdk .downstyle .roundedBlock {
-                  margin: 20px 0;
-                }
-                .qtcdk .downstyle .clearfix:before, .qtcdk .downstyle .clearfix:after, .qtcdk .downstyle ul:before, .qtcdk .downstyle ul:after {
-                  content: "";
-                  display: table;
-                }
-                .qtcdk .downstyle .clearfix:after, .qtcdk .downstyle ul:after {
-                  clear: both;
-                }
-                .qtcdk .downstyle .clearfix, .qtcdk .downstyle ul {
-                  zoom: 1;
-                }
-                .auto-style1 {
-                  margin-top: 7px;
-                  margin-bottom: 7px;
-                }
-                .auto-style2 {
-                  font-size: xx-small;
-                }
-              </style>
               <div class="downstyle">
                 <div class="roundedBlock shiftedBlock">
                   <div class="topRightCorner">
@@ -338,7 +338,7 @@
                             <div class="right">
                               <h2>Qt 4.8</h2>
                               <div class="inlineelement text downloadtext">
-                                <p><a id="qt-lib" name="qt-lib"></a>下のリストからあなたのOSを参考にして、最新の Qt 4.8を入手してください。
+                                <p>下のリストからあなたのOSを参考にして、最新の Qt 4.8を入手してください。
                                   <ul class="downloads">
                                     <li>
                                       <a class="internal-link" href="http://releases.qt-project.org/qt4/source/qt-win-opensource-4.8.4-mingw.exe" title=" Qt for Open Source C++ development on Windows">
